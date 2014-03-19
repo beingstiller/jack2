@@ -70,7 +70,11 @@ typedef unsigned char Boolean;
 
 #include "JackPosixThread.h"
 #ifndef MY_TARGET_OS_IPHONE
+#ifdef MAC_OS_X_VERSION_10_9
+#include <MacTypes.h>
+#else
 #include <CoreServices/../Frameworks/CarbonCore.framework/Headers/MacTypes.h>
+#endif
 #endif
 
 #include <mach/thread_policy.h>
