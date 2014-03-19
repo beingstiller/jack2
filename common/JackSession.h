@@ -56,7 +56,7 @@ typedef struct _jack_session_event jack_session_event_t;
 typedef void (*JackSessionCallback)(jack_session_event_t *event,
                                     void                 *arg);
 
-typedef struct  {
+typedef struct _jack_session_command_t {
 	const char           *uuid;
 	const char           *client_name;
 	const char           *command;
