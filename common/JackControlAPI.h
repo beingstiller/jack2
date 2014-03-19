@@ -175,11 +175,11 @@ jackctl_parameter_set_value(
 SERVER_EXPORT union jackctl_parameter_value
 jackctl_parameter_get_default_value(
 	jackctl_parameter_t * parameter);
-
+/*
 SERVER_EXPORT union jackctl_parameter_value
 jackctl_parameter_get_default_value(
     jackctl_parameter *parameter_ptr);
-
+*/
 SERVER_EXPORT bool
 jackctl_parameter_has_range_constraint(
 	jackctl_parameter_t * parameter_ptr);
