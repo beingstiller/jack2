@@ -5,3 +5,4 @@ man/*.1
 android/.server/
 android/.client/
 codeBlocks
+macosx/DerivedData
