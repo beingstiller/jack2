@@ -28,9 +28,14 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 namespace Jack
 {
 
+#ifndef ALL_PORTS
 #define ALL_PORTS	0xFFFF
-#define NO_PORT		0xFFFE
+#endif
 
+#ifndef NO_PORT
+#define NO_PORT		0xFFFE
+#endif
+	
 /*!
 \brief Base class for port.
 */
